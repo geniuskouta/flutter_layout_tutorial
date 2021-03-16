@@ -83,7 +83,7 @@ class MyHomePage extends StatelessWidget {
       appBar: AppBar(
         title: Text(this.title),
       ),
-      body: Column(
+      body: ListView(
         children: [
           Image.asset(
             'images/lake.jpg',
